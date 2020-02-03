@@ -59,7 +59,5 @@
   "engines": {
     "node": ">= 0.10"
   },
-  "license": "MIT",
-  "_from": "validator@9.4.1",
-  "_resolved": "http://registry.npm.taobao.org/validator/download/validator-9.4.1.tgz"
+  "license": "MIT"
 }

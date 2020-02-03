@@ -40,7 +40,8 @@ INCS_Debug := \
 	-I/home/pi/.node-gyp/8.12.0/deps/openssl/openssl/include \
 	-I/home/pi/.node-gyp/8.12.0/deps/uv/include \
 	-I/home/pi/.node-gyp/8.12.0/deps/zlib \
-	-I/home/pi/.node-gyp/8.12.0/deps/v8/include
+	-I/home/pi/.node-gyp/8.12.0/deps/v8/include \
+	-I$(srcdir)/../nan
 
 DEFS_Release := \
 	'-DNODE_GYP_MODULE_NAME=addon' \
@@ -77,7 +78,8 @@ INCS_Release := \
 	-I/home/pi/.node-gyp/8.12.0/deps/openssl/openssl/include \
 	-I/home/pi/.node-gyp/8.12.0/deps/uv/include \
 	-I/home/pi/.node-gyp/8.12.0/deps/zlib \
-	-I/home/pi/.node-gyp/8.12.0/deps/v8/include
+	-I/home/pi/.node-gyp/8.12.0/deps/v8/include \
+	-I$(srcdir)/../nan
 
 OBJS := \
 	$(obj).target/$(TARGET)/src/heapdump.o

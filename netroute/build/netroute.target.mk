@@ -42,7 +42,7 @@ INCS_Debug := \
 	-I/home/pi/.node-gyp/8.12.0/deps/zlib \
 	-I/home/pi/.node-gyp/8.12.0/deps/v8/include \
 	-I$(srcdir)/src \
-	-I$(srcdir)/node_modules/nan
+	-I$(srcdir)/../nan
 
 DEFS_Release := \
 	'-DNODE_GYP_MODULE_NAME=netroute' \
@@ -81,7 +81,7 @@ INCS_Release := \
 	-I/home/pi/.node-gyp/8.12.0/deps/zlib \
 	-I/home/pi/.node-gyp/8.12.0/deps/v8/include \
 	-I$(srcdir)/src \
-	-I$(srcdir)/node_modules/nan
+	-I$(srcdir)/../nan
 
 OBJS := \
 	$(obj).target/$(TARGET)/src/netroute.o \
